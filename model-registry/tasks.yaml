@@ -1,0 +1,22 @@
+schema_version: 1
+
+tasks:
+  general_drone:
+    display_name: General Drone Analysis
+    description: General aerial object detection.
+    active_model: general-drone-v1
+
+  disaster:
+    display_name: Disaster Analysis
+    description: Detection for disaster response and damage assessment.
+    active_model: disaster-v1
+
+  agriculture:
+    display_name: Agriculture Analysis
+    description: Detection for agricultural monitoring.
+    active_model: agriculture-v1
+
+  security:
+    display_name: Security Analysis
+    description: Detection for permitted safety and security monitoring scenarios.
+    active_model: security-v1

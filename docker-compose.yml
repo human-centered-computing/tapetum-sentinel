@@ -1,0 +1,44 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.api
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - model-cache:/models
+      - app-data:/data
+    depends_on:
+      - detection
+      - enhancement
+
+  enhancement:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.service
+    environment:
+      SERVICE_NAME: enhancement
+    volumes:
+      - model-cache:/models
+
+  detection:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.service
+    environment:
+      SERVICE_NAME: detection
+    volumes:
+      - model-cache:/models
+
+  local-llm:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama-data:/root/.ollama
+    ports:
+      - "11434:11434"
+
+volumes:
+  model-cache:
+  app-data:
+  ollama-data:

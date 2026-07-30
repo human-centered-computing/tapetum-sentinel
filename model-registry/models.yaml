@@ -1,0 +1,38 @@
+schema_version: 1
+
+models:
+  general-drone-v1:
+    task: general_drone
+    provider: huggingface
+    repository: REPLACE_WITH_ORG/tapetum-general-drone
+    revision: main
+    artifact: best.pt
+    framework: ultralytics
+    status: planned
+
+  disaster-v1:
+    task: disaster
+    provider: huggingface
+    repository: REPLACE_WITH_ORG/tapetum-disaster
+    revision: main
+    artifact: best.pt
+    framework: ultralytics
+    status: planned
+
+  agriculture-v1:
+    task: agriculture
+    provider: huggingface
+    repository: REPLACE_WITH_ORG/tapetum-agriculture
+    revision: main
+    artifact: best.pt
+    framework: ultralytics
+    status: planned
+
+  security-v1:
+    task: security
+    provider: huggingface
+    repository: REPLACE_WITH_ORG/tapetum-security
+    revision: main
+    artifact: best.pt
+    framework: ultralytics
+    status: planned
