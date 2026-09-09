@@ -53,4 +53,6 @@ This repository is an initial architecture scaffold. Components will be implemen
 
 ## License
 
-Apache License 2.0. See `LICENSE`.
+GNU Affero General Public License v3.0 (AGPL-3.0). See `LICENSE`.
+
+If you modify this AGPL-covered software and make the modified version available to users over a network, the AGPL source-availability requirements apply.
