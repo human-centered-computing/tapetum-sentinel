@@ -1,5 +1,7 @@
 # Tapetum Sentinel
 
+> Çeviri durumu: Yapay zekâ destekli taslak; insan dil incelemesi bekliyor.
+
 [English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 Tapetum Sentinel, drone ve saha görüntüleri için tasarlanan açık kaynak, insan merkezli video analizi platformudur. Görüntüleri iyileştirir, göreve özgü nesne tespiti yapar, kanıt içeren üstveriyi saklar ve analiz edilmiş videolar üzerinde yerel, çevrimdışı soru-cevap sağlar.

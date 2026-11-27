@@ -1,5 +1,7 @@
 # Tapetum Sentinel
 
+> Übersetzungsstatus: KI-unterstützter Entwurf, menschliche Sprachprüfung ausstehend.
+
 [English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
 
 Tapetum Sentinel ist eine menschenzentrierte Open-Source-Plattform zur Videoanalyse für Drohnen- und Feldaufnahmen. Sie verbessert visuelle Eingaben, erkennt aufgabenspezifische Objekte, speichert nachweisreiche Metadaten und ermöglicht lokale Offline-Fragebeantwortung über analysierte Videos.
