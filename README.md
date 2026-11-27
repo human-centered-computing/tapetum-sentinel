@@ -1,5 +1,7 @@
 # Tapetum Sentinel
 
+[English](README.md) · [Türkçe](README.tr.md) · [Deutsch](README.de.md) · [العربية](README.ar.md)
+
 Tapetum Sentinel is an open-source, human-centered video intelligence platform designed for drone and field imagery. It enhances visual input, performs task-specific object detection, stores evidence-rich metadata, and enables local, offline question answering over analyzed video.
 
 ## Core principles
